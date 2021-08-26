@@ -2,15 +2,15 @@
 
 This application was developed using React, React-Redux, Node with MongoDB as backend in 6 hours.
 
-Deployed on [Heroku](http://ecommerce-products-test.herokuapp.com/)
+Deployed on [Heroku](https://ecommerce-products-test.herokuapp.com/)
 
 ## Features
 - Product List on Dashboard
-- Search Products
+- Search Products (Debouncing input technique)
 - Sort Products based on Price
 - Rest API based backend architecture (Endpoints at /api/products)
 - Dumping/Importing [provided json](https://s3-ap-southeast-1.amazonaws.com/he-public-data/productdf38641.json) into mongo directly by hitting endpoint `/api/data/aws/import` (this imports the json from aws and dumps into mongo collection)
-- Deployment of build on Free-tier hosting provider ([Heroku](http://ecommerce-products-test.herokuapp.com/)
+- Deployment of build on Free-tier hosting provider ([Heroku](https://ecommerce-products-test.herokuapp.com/)
 
 ## Installation
 
